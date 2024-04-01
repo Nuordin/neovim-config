@@ -6,4 +6,4 @@ return {
 			theme = "dracula"
 		})
 	end
-} 
+}
