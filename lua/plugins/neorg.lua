@@ -27,6 +27,7 @@ return {
           },
         },
       })
+      vim.keymap.set('n', '<leader>ng', ':Neorg<CR>', {})
     end,
   }
 }
