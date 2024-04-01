@@ -16,14 +16,7 @@ return {
     config = function()
 
       require("telescope").setup {
-        extensions = {
-          ["ui-select"] = {
-            require("telescope.themes").get_dropdown {
-              -- even more opts
-            }
-
-          }
-        }
+        extensions = { ["ui-select"] = { require("telescope.themes").get_dropdown { } } }
       }
       require("telescope").load_extension("ui-select")
     end
